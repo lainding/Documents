@@ -38,6 +38,11 @@ Sync可实现设备到设备的同步，为团队及个人提供快速私人的�
   支持的操作系统及设备参考https://www.getsync.com/intl/zh_cn/platforms/desktop。
   ![MultiOS](https://www.getsync.com/2015launch2_0/images/features/logo-platforms-all.png)
 
+## Sync使用基本过程
+1. 安装程序；
+2. 创建身份或连接已有身份；
+3. 共享或连接他人共享文件夹；
+
 ## 安装及使用方法
 根据自己所使用的平台下载最新版本Sync软件。下载地址如下：
 > https://www.getsync.com/intl/zh_cn/platforms/desktop
@@ -62,19 +67,41 @@ Sync可实现设备到设备的同步，为团队及个人提供快速私人的�
 出现试用Sync Pro界面，点击`继续 >`。关于Sync Pro，参考https://www.getsync.com/intl/zh_cn/features#bfm。
   ![install step3_2](images/installstep3_2.png)
 
+#### 2. iOS
+**STEP1**：在App Store中搜索`BitTorrent Sync`。
+  ![install step1_1](images/iosinstallstep1_1.png)
 
-**STEP4**：连接设备
+**STEP2**：点击`获取`安装BitTorrent Sync。
+  ![install step2](images/iosinstallstep2_1.png)
+  ![install step2_2](images/iosinstallstep2_2.png)
+
+#### 3. Android
+**STEP1**：在`豌豆荚`应用商店中搜索`BitTorrent Sync`。
+
+  ![install step1](images/androidinstallstep1.png)
+
+**STEP2**：点击`安装`安装BitTorrent Sync。
+
+  ![install step2](images/androidinstallstep2.png)
+
+
+### 创建身份或连接已有身份
+连接设备
 连接设备是指通过Sync秘密身份，将**个人的**多台设备联系在一起，使得他们之间可以互相同步，共同管理同步文件夹。
   ![install step4](images/installstep4.png)
 
 **STEP4.1**：这是我的第一台Sync 2.0设备（**第一次使用Sync选择此项**）
+
 创建身份
+通过创建的身份可将自己的多台设备联系起来。同时在发送和接受数据时显示这个名字。此处创建了一个名为`Demo`的身份。在文本框填写`DEMO`后，点击`创建身份`。
+> **注意：** 名称可任意，不需要考虑是否与他人重复，此名称一经选择，不能进行更改。
+
+  ![install step4_1](images/installstep4.1.png)
+
+**STEP4.2**：
 
 
 
-
-#### 2. iOS
-#### 3. Android
 
 ### 共享文件夹
 #### 1. Windows
