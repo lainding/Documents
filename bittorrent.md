@@ -75,8 +75,8 @@ Sync可实现设备到设备的同步，为团队及个人提供快速私人的�
 
 **STEP2**：点击`获取`安装BitTorrent Sync。
 
-  <img src='images/iosinstallstep2_1.png' width=50% />
-  <img src='images/iosinstallstep2_2.png' width=50% />
+  <img src='images/iosinstallstep2_1.PNG' width=50% />
+  <img src='images/iosinstallstep2_2.PNG' width=50% />
 
 #### 3. Android
 **STEP1**：在`豌豆荚`应用商店中搜索`BitTorrent Sync`。
