@@ -52,20 +52,21 @@ Sync可实现设备到设备的同步，为团队及个人提供快速私人的�
 #### 1. Windows
 **STEP1**：双击已下载的安装程序包。
 
-  ![install step1](images/installstep1.png)
+  <img src='images/installstep1.png' width=50%>
 
 **STEP2**：按默认参数安装BitTorrent Sync。
 
-  ![install step2](images/installstep2.png)
+  <img src='images/installstep2.png' width=50%>
 
 > **注意：** 为保证同步过程能顺利进行，建议勾选`在启动Windows时启动BitTorrent Sync`。另外如有其它防火墙请自行添加防火墙例外，否则可能影响同步。
 
 **STEP3**：等待BitTorrent Sync安装完成后，自动运行Sync软件。出现欢迎界面，点击`使用此应用程序，即代表您同意我们的隐私权政策、条款和最终用户许可协议.`后，点击`继续 >`。
 
-  ![install step3](images/installstep3.png)
+  <img src='images/installstep3.png' width=70%>
 
 出现试用Sync Pro界面，点击`继续 >`。关于Sync Pro，参考https://www.getsync.com/intl/zh_cn/features#bfm。
-  ![install step3_2](images/installstep3_2.png)
+
+  <img src='images/installstep3_2.png' width=70%>
 
 #### 2. iOS
 **STEP1**：在App Store中搜索`BitTorrent Sync`。
@@ -80,11 +81,11 @@ Sync可实现设备到设备的同步，为团队及个人提供快速私人的�
 #### 3. Android
 **STEP1**：在`豌豆荚`应用商店中搜索`BitTorrent Sync`。
 
-  ![install step1](images/androidinstallstep1.png)
+  <img src='images/androidinstallstep1.png' width=50% />
 
 **STEP2**：点击`安装`安装BitTorrent Sync。
 
-  ![install step2](images/androidinstallstep2.png)
+  <img src='images/androidinstallstep2.png' width=50% />
 
 
 ### 创建身份或连接已有身份
