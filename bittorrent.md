@@ -1,8 +1,5 @@
 # BitTorrent Sync使用手册
 ----
-[TOC]
-
----
 
 Sync是设备到设备的同步，为团队及个人提供快速私人的文件共享。
 
@@ -37,16 +34,33 @@ Sync是设备到设备的同步，为团队及个人提供快速私人的文件�
 * 多系统，跨平台
 
   Sync不仅支持主流计算机操作系统，例如Windows, MAC, Linux，还支持主流移动终端系统，如iOS，Android，以及其他设备，例如Western Digital，QNAP，Synology等设备。
+
   支持的操作系统及设备参考https://www.getsync.com/intl/zh_cn/platforms/desktop。
-  ![MultiOS](https://www.getsync.com/2015launch2_0/images/uses/servers/illo-file-server-capablities.png)
+  ![MultiOS](https://www.getsync.com/2015launch2_0/images/features/logo-platforms-all.png)
 
 ## 安装及使用方法
+根据自己所使用的平台下载最新版本Sync软件。下载地址如下：
+> https://www.getsync.com/intl/zh_cn/platforms/desktop
+
+
 ### 安装
 #### 1. Windows
+**STEP1**：双击已下载的安装程序包。
+
+  ![install step1](images/installstep1.png)
+
+**STEP2**:按默认参数安装BitTorrent Sync。
+
+  ![install step2](images/installstep2.png)
+
+> **注意：**为保证同步过程能顺利进行，建议勾选`在启动Windows时启动BitTorrent Sync`。另外如有其它防火墙请自行添加防火墙例外，否则可能影响同步。
+
+
 #### 2. iOS
 #### 3. Android
 
 ### 共享文件夹
+#### 1. Windows
 
 ### 连接到已共享的文件夹
 #### 1. Windows
@@ -54,4 +68,10 @@ Sync是设备到设备的同步，为团队及个人提供快速私人的文件�
 #### 3. Android
 
 ## 友情提示
-* 
+* 由于Sync是在运行时完成设备之间同步的，因此需要各设备之间有共同的同步时间。建议开机后保持Sync的运行。
+
+  ![Background running](images/backgroundrunning.png)
+
+* 移动终端禁用数据网络
+
+*
