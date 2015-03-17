@@ -3,10 +3,26 @@
 
 Sync可实现设备到设备的同步，为团队及个人提供快速私人的文件共享。
 
-利用该软件可以将教师拍摄的小朋友在幼儿园的照片与家长共享，且**无需上传至任何服务器**。
+## 幼儿园应用场景（共享小朋友在幼儿园的照片）
 
-## 特点
+利用该软件可以将教师拍摄的小朋友在幼儿园的照片简单的与家长共享，且**无需上传至任何服务器**。
+
+* 教师端需做工作
+  1. 安装并配置Sync软件；
+  2. 添加共享文件夹，并将共享密钥或链接发送给家长；
+  3. 按需要在文件夹中添加需要共享的文件或文件夹；
+
+
+* 家长端需做工作
+  1. 安装并配置Sync软件；
+  2. 将老师发来的共享密钥或链接添加到Sync软件中；
+  3. 等待传输；
+  4. 欣赏小朋友在幼儿园的照片；
+
+
+## Sync的特点
 * 速度快
+
 
   只同步已改变的内容，而不是整个文件。每一个额外设备都在为新设备提供共享。
 
@@ -71,43 +87,76 @@ Sync可实现设备到设备的同步，为团队及个人提供快速私人的�
 #### 2. iOS
 **STEP1**：在App Store中搜索`BitTorrent Sync`。
 
-  <img src='images/iosinstallstep1_1.png' width=50% />
+  <img src='images/iosinstallstep2_1.PNG' width=50% />
 
 **STEP2**：点击`获取`安装BitTorrent Sync。
 
-  <img src='images/iosinstallstep2_1.PNG' width=50% />
   <img src='images/iosinstallstep2_2.PNG' width=50% />
 
 #### 3. Android
 **STEP1**：在`豌豆荚`应用商店中搜索`BitTorrent Sync`。
 
-  <img src='images/androidinstallstep1.png' width=50% />
+  <img src='images/androidinstallstep1.png' width=45% />
 
 **STEP2**：点击`安装`安装BitTorrent Sync。
 
-  <img src='images/androidinstallstep2.png' width=50% />
+  <img src='images/androidinstallstep2.png' width=45% />
 
 
-### 创建身份或连接已有身份
-连接设备
-连接设备是指通过Sync秘密身份，将**个人的**多台设备联系在一起，使得他们之间可以互相同步，共同管理同步文件夹。
-  ![install step4](images/installstep4.png)
+<font color='red'><b>至此，您已经在设备上完成了Sync软件的安装。</b></font>
+<br>
+<br>
+<br>
 
-**STEP4.1**：这是我的第一台Sync 2.0设备（**第一次使用Sync选择此项**）
+### 配置Sync软件
 
-创建身份
-通过创建的身份可将自己的多台设备联系起来。同时在发送和接受数据时显示这个名字。此处创建了一个名为`Demo`的身份。在文本框填写`DEMO`后，点击`创建身份`。
+当第一次运行Sync软件时需要创建或将当前设备连接到某个Sync设备上，也就是创建或连接到某个身份上。
+
+Windows平台下Sync 2.0首次运行：
+
+  <img src='images/installstep4.png' width=70% />
+
+移动终端下Sync首次运行界面（此处以iOS系统例）：
+
+  <img src='images/iosfirst.png' width=50% />
+
+  > **连接设备**
+  >
+  > 连接设备是指通过Sync秘密身份，将**个人的**多台设备联系在一起，使得他们之间的同步文件夹列表可以互相同步，共同管理同步文件夹。
+
+
+#### 1. 这是我的第一台Sync 2.0设备（**<font color='red'>您没有运行Sync的设备，选择此项</font>**）
+
+通过点击`这是我的第一台Sync 2.0设备`来创建一个身份。
+
+通过创建的身份可创建一个自己的`身份`，在将来可将自己的多台设备联系起来。同时在发送和接受数据时显示这个名字。
+
 > **注意：** 名称可任意，不需要考虑是否与他人重复，此名称一经选择，不能进行更改。
 
-  ![install step4_1](images/installstep4.1.png)
+此处创建了一个名为`Demo`的身份，在文本框填写`DEMO`后，点击`创建身份`。
 
-**STEP4.2**：
+  <img src='images/installstep4.1.png' width=70% />
+
+#### 2. 连接一台已经在运行Sync 2.0的设备（**<font color='red'>您已有运行的Sync设备，选择此项</font>**）
+
+通过此项您可以将自己的多台运行Sync的设备连接在一起，可以在任何一台上连接到一个共享文件夹，其他设备都能看到这个连接。
+
+将多台设备连接到一起后，可以将移动终端设备的照片备份到任意台自己的设备中。
+
+通过点击`连接一台已经在运行Sync 2.0的设备`
+
+移动终端
+
+Windows 终端出现下面界面，通过已经
+
+
 
 
 
 
 ### 共享文件夹
 #### 1. Windows
+
 
 ### 连接到已共享的文件夹
 #### 1. Windows
@@ -121,4 +170,4 @@ Sync可实现设备到设备的同步，为团队及个人提供快速私人的�
 
 * 移动终端禁用数据网络
 
-*
+* 移除共享文件夹，小心误删文件
