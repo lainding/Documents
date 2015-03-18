@@ -235,6 +235,21 @@ Sync提供3种分享方式，`电子邮件`，`复制`和`QR码`（二维码）�
 
   ![Background running](images/backgroundrunning.png)
 
-* 移动终端禁用数据网络
+* 由于可能同步的数据量比较大，建议移动终端禁用`手机网络数据`功能。
 
-* 移除共享文件夹，小心误删文件
+  <img src='images/mobilesetting.png' width=60% />
+
+
+* 移除共享文件夹时，如勾选`删除已同步文件`将会将本地的同步文件夹删除，请确认是否要删除，小心误删文件。
+
+## 6. 联系方式
+
+如果对Sync的使用有什么疑问，可与我联系，我非常愿意和你一起探讨。
+
+Email: wding.cn@gmail.com
+
+微信: lainding （`加微信请注明是谁。`）
+
+微信二维码：
+
+<img src='images/weichat.jpg' width=40% />
