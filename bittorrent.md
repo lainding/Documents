@@ -239,7 +239,7 @@ Sync提供3种分享方式，`电子邮件`，`复制`和`QR码`（二维码）�
 
   以360安全卫士为例，如下图，选择`优化速度`->`启动项`，找到`BitTorrent Sync同步软件`，允许随Windows启动运行。
 
-  <img src='images/360settings.png' width=70%>
+  <img src='images/360settings.png' width=70% />
 
 
 * 由于可能同步的数据量比较大，建议移动终端禁用`手机网络数据`功能。
