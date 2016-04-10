@@ -3,7 +3,7 @@
 ## 目录
 ---
 
-* [关于 Markdown](article/about/readme.md)
+* [关于 Markdown](#关于-markdown)
   - [第一个 Markdown 文档](article/about/helloworld.md)
   - [Hello.md](article/about/hello.md)
 * [语法](article/syntax/readme.md)
