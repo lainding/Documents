@@ -1,48 +1,41 @@
 # Markdown入门
 
+原文：[<font color="blue">https://github.com/LearnShare/Learning-Markdown</font>](https://github.com/LearnShare/Learning-Markdown)
+
 ## 目录
 
-* [关于 Markdown](.#关于-markdown)
-  - [第一个 Markdown 文档](article/about/helloworld.md)
-  - [Hello.md](article/about/hello.md)
-* [语法](article/syntax/readme.md)
-  - [段落与换行](article/syntax/paragraphs-and-line-breaks.md)
-  - [标题](article/syntax/headers.md)
-  - [引用](article/syntax/blockquotes.md)
-  - [列表](article/syntax/lists.md)
-  - [代码](article/syntax/code.md)
-  - [分隔线](article/syntax/horizontal-rule.md)
-  - [超链接](article/syntax/links.md)
-  - [图片](article/syntax/images.md)
-  - [强调](article/syntax/emphasis.md)
-  - [字符转义](article/syntax/blackslash-escapes.md)
-* [扩展语法](article/extension/readme.md)
-  - [删除线](article/extension/strikethrougn.md)
-  - [代码块和语法高亮](article/extension/code-blocks-and-highlighting.md)
-  - [表格](article/extension/table.md)
-  - [Task List](article/extension/task-list.md)
-* [编辑器与扩展](article/tools/readme.md)
-  - [MarkdownPad](article/tools/markdownpad.md)
-  - [Texts](article/tools/texts.md)
-  - [MarkPad](article/tools/markpad.md)
-  - [MdCharm](article/tools/mdcharm.md)
-  - [Markdown Edit](article/tools/markdown-edit.md)
-  - [CuteMarkEd](article/tools/cutemarked.md)
-  - [Haroopad](article/tools/haroopad.md)
-  - [Mou](article/tools/mou.md)
-  - [MacDown](article/tools/macdown.md)
-  - [Markdown Pro](article/tools/markdown-pro.md)
-  - [ReText](article/tools/retext.md)
-  - [sublime-markdown-extended](article/tools/sublime-markdown-extended.md)
-  - [Atom Markdown Preview](article/tools/atom-markdown-preview.md)
-  - [IDEA Markdown](article/tools/idea-markdown.md)
-  - [Cmd Markdown](article/tools/cmd-markdown.md)
-  - [StackEdit](article/tools/stackedit.md)
-  - [Dillinger](article/tools/dillinger.md)
-* [格式转换](article/convert/readme.md)
-  - [HTML](article/convert/html.md)
-  - [PDF](article/convert/pdf.md)
-  - [Word](article/convert/word.md)
+<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [目录](#目录)
+- [关于 Markdown](#关于-markdown)
+	- [介绍](#介绍)
+	- [为什么选择 Markdown](#为什么选择-markdown)
+	- [兼容 HTML](#兼容-html)
+	- [第一个 Markdown 文档](#第一个-markdown-文档)
+- [语法](#语法)
+	- [段落与换行](#段落与换行)
+	- [标题](#标题)
+	- [引用](#引用)
+	- [列表](#列表)
+	- [代码](#代码)
+	- [分隔线](#分隔线)
+	- [超链接](#超链接)
+	- [图像](#图像)
+	- [强调](#强调)
+	- [字符转义](#字符转义)
+- [扩展语法](#扩展语法)
+	- [删除线](#删除线)
+	- [代码块和语法高亮](#代码块和语法高亮)
+	- [表格](#表格)
+	- [Task List](#task-list)
+	- [CommonMark](#commonmark)
+- [格式转换](#格式转换)
+	- [转换为 HTML 文档](#转换为-html-文档)
+	- [转换为 PDF 文档](#转换为-pdf-文档)
+	- [转换为 Word 文档](#转换为-word-文档)
+- [参考资料](#参考资料)
+
+<!-- /TOC -->
 
 ## 关于 Markdown
 
@@ -92,9 +85,9 @@ Markdown 完全兼容 HTML 语法，可以直接在 Markdown 文档中插入 HTM
 </table>
 
 
-## 第一个 Markdown 文档
+### 第一个 Markdown 文档
 
-### Hello.md
+#### Hello.md
 
 打开你熟悉的文本编辑器（如 [Sublime Text](http://www.sublimetext.com/)），新建一个 'hello.md' 文件，写入下面的内容，并保存：
 
@@ -165,9 +158,9 @@ H2
 #####H5#####
 ```
 
-####H4
+#### H4 ####
 
-#####H5
+##### H5 #####
 
 ② 也可以只在左边使用 `#`：
 
@@ -177,9 +170,9 @@ H2
 #####H5
 ```
 
-####H4
+#### H4
 
-#####H5
+##### H5
 
 ③ 成对的 `#` 左侧和只在左边使用的 `#` 左侧都不可以有任何空白，但其内侧可以使用空白。
 
@@ -560,3 +553,235 @@ _
 .
 !
 ```
+
+
+## 扩展语法
+
+[Markdown 标准](http://daringfireball.net/projects/markdown/syntax 'Markdown: Syntax') 本身所包含的功能有限，所以产生了许多第三方的扩展语法，如 [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)。
+
+这里只介绍众多扩展语法中的一部分内容，它们在不同平台或工具的支持程度不同，请参考具体平台或工具的文档和说明来使用。
+
+### 删除线
+
+```markdown
+这就是 ~~删除线~~
+```
+
+这就是 ~~删除线~~
+
+
+### 代码块和语法高亮
+
+#### 代码块
+
+与原来使用缩进来添加代码块的语法不同，这里使用 \`\`\` \`\`\` 来包含多行代码：
+
+![code](learningmarkdown-images/code.png 'Code Blocks')
+
+```
+<p>code here</p>
+```
+
+>三个 \`\`\` 要独占一行。
+
+#### 代码高亮
+
+在上面的代码块语法基础上，在第一组 \`\`\` 之后添加代码的语言，如 'javascript' 或 'js'，即可将代码标记为 `JavaScript`：
+
+![code-js](learningmarkdown-images/code-js.png 'JavaScript Code')
+
+```js
+window.addEventListener('load', function() {
+  console.log('window loaded');
+});
+```
+
+### 表格
+
+#### 单元格和表头
+
+使用 `|` 来分隔不同的单元格，使用 `-` 来分隔表头和其他行：
+
+```markdown
+name | age
+---- | ---
+LearnShare | 12
+Mike |  32
+```
+
+name | age
+---- | ---
+LearnShare | 12
+Mike | 32
+
+为了美观，可以使用空格对齐不同行的单元格，并在左右两侧都使用 `|` 来标记单元格边界：
+
+```markdown
+|    name    | age |
+| ---------- | --- |
+| LearnShare |  12 |
+| Mike       |  32 |
+```
+
+|    name    | age |
+| ---------- | --- |
+| LearnShare |  12 |
+| Mike       |  32 |
+
+>为了使 Markdown 更清晰，`|` 和 `-` 两侧需要至少有一个空格（最左侧和最右侧的 `|` 外就不需要了）。
+
+#### 对齐
+
+在表头下方的分隔线标记中加入 `:`，即可标记下方单元格内容的对齐方式：
+
++ `:---` 代表左对齐
++ `:--:` 代表居中对齐
++ `---:` 代表右对齐
+
+```markdown
+| left | center | right |
+| :--- | :----: | ----: |
+| aaaa | bbbbbb | ccccc |
+| a    | b      | c     |
+```
+
+| left | center | right |
+| :--- | :----: | ----: |
+| aaaa | bbbbbb | ccccc |
+| a    | b      | c     |
+
+>如果不使用对齐标记，单元格中的内容默认左对齐；表头单元格中的内容会一直居中对齐（不同的实现可能会有不同表现）。
+
+#### 插入其他内容
+
+表格中可以插入其他 Markdown 中的行内标记：
+
+```markdown
+|     name     | age |             blog                |
+| ------------ | --- | ------------------------------- |
+| _LearnShare_ |  12 | [LearnShare](http://xianbai.me) |
+| __Mike__     |  32 | [Mike](http://mike.me)          |
+```
+
+|     name     | age |             blog                |
+| ------------ | --- | ------------------------------- |
+| _LearnShare_ |  12 | [LearnShare](http://xianbai.me) |
+| __Mike__     |  32 | [Mike](http://mike.me)          |
+
+
+### Task List
+
+```markdown
+- [ ] Eat
+- [x] Code
+  - [x] HTML
+  - [x] CSS
+  - [x] JavaScript
+- [ ] Sleep
+```
+
+- [ ] Eat
+- [x] Code
+  - [x] HTML
+  - [x] CSS
+  - [x] JavaScript
+- [ ] Sleep
+
+
+### CommonMark
+
+[CommonMark](http://commonmark.org/) 试图将碎片化的 Markdown 实现和扩展进行标准化，提供统一的 [规范](http://spec.commonmark.org/) 及不同语言的 [实现](http://code.commonmark.org/) 。
+
+
+
+## 格式转换
+
+Markdown 文档可以方便地转换为 HTML、Word、PDF 等格式的文档。这些转换既可以通过你正在使用的 Markdown 编辑器完成，也可以通过一些命令行工具（如 [Pandoc](http://pandoc.org/)、[Gitbook](https://github.com/GitbookIO/gitbook)）来完成，甚至可以用你熟悉的语言编程实现。
+
+这个部分主要介绍通过编辑器或命令行工具来实现 Markdown 文档到下列格式的转换：
+
+### 转换为 HTML 文档
+
+#### MdCharm
+
+选择 'File', 'Export to...'，勾选 'HTML', 点击 'Browser...' 选择导出目录并输入导出的文件名，点击 'OK'，即可将当前的 Markdown 文档转换为 HTML 文档。
+
+如果不满意 HTML 文档的样式，可以在设置中自定义 CSS。
+
+#### Pandoc
+
+参考 [Installing](http://pandoc.org/installing.html) 安装 Pandoc。
+
+打开命令行，进入文档所在目录：
+
+```
+cd /path/to/file/
+```
+
+执行下面的命令，将 Markdown 转换为 HTML：
+
+```
+pandoc -o hello.html hello.md
+```
+
+>默认的转换，只是将 Markdown 内容转换为 HTML 标签，所以只能看到浏览器的默认样式。
+
+可以执行下面的命令，为导出的 HTML 添加自定义样式：
+
+```
+pandoc -o hello.html -c style.css hello.md
+```
+
+>`style.css` 仍然是以 `<link>` 的方式关联到 HTML 文档中的，所以在发布的时候需要将 CSS 一同发布出去。
+
+
+### 转换为 PDF 文档
+
+#### MdCharm
+
+与导出 HTML 文档类似，选择 'File', 'Export to...'，勾选 'PDF', 点击 'Browser...' 选择导出目录并输入导出的文件名，点击 'OK'，即可将当前的 Markdown 文档转换为 PDF 文档。
+
+如果不满意 PDF 文档的样式，可以在设置中自定义 CSS。
+
+#### Pandoc
+
+使用 Pandoc 导出 PDF 文档，需要先安装某个 LaTeX 引擎（参考 [Creating a PDF](http://pandoc.org/README.html#creating-a-pdf)）。然后执行命令：
+
+```
+pandoc -o hello.pdf hello.md
+```
+
+当然，也可以通过 `-c style.css` 来指定样式文件。
+
+#### Chrome
+
+在将 Markdown [转换为 HTML 文档](html.md) 之后，可以通过 [Chrome 浏览器](https://www.google.com/chrome/) 打开它。选择 '打印'（Ctrl+P），然后更改 '目标打印机' 为 '另存为 PDF'，再进行一些设置后，即可保存为 PDF 文档。
+
+
+### 转换为 Word 文档
+
+#### 复制粘贴
+
+在导出为 HTML 文档之后，可以（在浏览器中）手动复制 HTML 页面的内容，然后粘贴到 Word 文档中，保存即可。
+
+#### Pandoc
+
+执行下面的命令，即可将 Markdown 文档转换为 Word 文档：
+
+```
+pandoc -o hello.docx hello.md
+```
+
+## 参考资料
+
+1. [Project Markdown][project-markdown]
+2. [Markdown Syntax zh_TW][syntex-tw]
+3. [Markdown Syntax CN][syntex-cn]
+4. [Wiki Markdown][wiki-markdown]
+5. [XBeta Wiki Markdown][xbeta-markdown]
+
+[project-markdown]: http://daringfireball.net/projects/markdown/ "Project Markdown"
+[syntex-tw]: https://github.com/othree/markdown-syntax-zhtw/blob/master/syntax.md "Markdown Syntax zh_TW"
+[syntex-cn]: http://wowubuntu.com/markdown/ "Markdown Syntax CN"
+[wiki-markdown]: http://zh.wikipedia.org/zh-cn/Markdown "Wiki Markdown"
+[xbeta-markdown]: http://xbeta.org/wiki/show/Markdown "XBeta Wiki Markdown"
